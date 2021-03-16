@@ -4,7 +4,7 @@
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-appengine-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.0.1-SNAPSHOT</version><!-- {x-version-update:google-cloud-appengine:current} -->
+  <version>0.1.0</version><!-- {x-version-update:google-cloud-appengine:current} -->
   <name>Google App Engine Admin API Parent</name>
   <url>https://github.com/googleapis/java-appengine</url>
   <description>
@@ -60,17 +60,17 @@
       <dependency>
         <groupId>com.google.cloud</groupId>
         <artifactId>google-cloud-appengine</artifactId>
-        <version>0.0.1-SNAPSHOT</version><!-- {x-version-update:google-cloud-appengine:current} -->
+        <version>0.1.0</version><!-- {x-version-update:google-cloud-appengine:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>grpc-google-cloud-appengine-v1</artifactId>
-        <version>0.0.1-SNAPSHOT</version><!-- {x-version-update:grpc-google-cloud-appengine-v1:current} -->
+        <version>0.1.0</version><!-- {x-version-update:grpc-google-cloud-appengine-v1:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>proto-google-cloud-appengine-v1</artifactId>
-        <version>0.0.1-SNAPSHOT</version><!-- {x-version-update:proto-google-cloud-appengine-v1:current} -->
+        <version>0.1.0</version><!-- {x-version-update:proto-google-cloud-appengine-v1:current} -->
       </dependency>
 
       <dependency>
