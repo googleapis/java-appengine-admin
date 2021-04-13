@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-appengine-admin.git",
-        "sha": "8cb351b8dc4412f8080f5ffd972269a8fa22ff08"
+        "sha": "98657cdb34e204a7ff1cb12009e838b8161d2e64"
       }
     },
     {
