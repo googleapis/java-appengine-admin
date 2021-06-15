@@ -48,8 +48,8 @@ import org.junit.Test;
 public class FirewallClientTest {
   private static MockFirewall mockFirewall;
   private static MockServiceHelper mockServiceHelper;
-  private FirewallClient client;
   private LocalChannelProvider channelProvider;
+  private FirewallClient client;
 
   @BeforeClass
   public static void startStaticServer() {

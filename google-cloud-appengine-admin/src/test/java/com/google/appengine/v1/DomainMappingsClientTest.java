@@ -51,8 +51,8 @@ import org.junit.Test;
 public class DomainMappingsClientTest {
   private static MockDomainMappings mockDomainMappings;
   private static MockServiceHelper mockServiceHelper;
-  private DomainMappingsClient client;
   private LocalChannelProvider channelProvider;
+  private DomainMappingsClient client;
 
   @BeforeClass
   public static void startStaticServer() {
