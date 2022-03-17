@@ -40,3 +40,5 @@ permissionRules:
     permission: admin
   - team: yoshi-java
     permission: push
+  - team: aap-dpes
+    permission: push
