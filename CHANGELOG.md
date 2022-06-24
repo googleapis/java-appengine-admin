@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.3.1](https://github.com/googleapis/java-appengine-admin/compare/v2.3.0...v2.3.1) (2022-06-23)
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.13.0 ([#247](https://github.com/googleapis/java-appengine-admin/issues/247)) ([10d3f9c](https://github.com/googleapis/java-appengine-admin/commit/10d3f9c3d1ed3ca626bf312b7b29bd8e9367f77d))
+
+## [2.3.0](https://github.com/googleapis/java-appengine-admin/compare/v2.2.0...v2.3.0) (2022-05-19)
+
+
+### Features
+
+* add build scripts for native image testing in Java 17 ([#1440](https://github.com/googleapis/java-appengine-admin/issues/1440)) ([#241](https://github.com/googleapis/java-appengine-admin/issues/241)) ([e5b6e84](https://github.com/googleapis/java-appengine-admin/commit/e5b6e84baa7de76436b7527a0b7a9dba1b8f56a3))
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.12.0 ([#240](https://github.com/googleapis/java-appengine-admin/issues/240)) ([d25ecb6](https://github.com/googleapis/java-appengine-admin/commit/d25ecb6669e68bb29d45eb1039f688a902b8b21d))
+
 ## [2.2.0](https://github.com/googleapis/java-appengine-admin/compare/v2.1.11...v2.2.0) (2022-05-06)
 
 
