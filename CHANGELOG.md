@@ -1,5 +1,83 @@
 # Changelog
 
+## [1.0.0](https://github.com/googleapis/java-appengine-admin/compare/v0.1.0...v1.0.0) (2023-05-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* release gapic-generator-java v2.0.0 ([#91](https://github.com/googleapis/java-appengine-admin/issues/91))
+
+### Features
+
+* Add Application.service_account ([#234](https://github.com/googleapis/java-appengine-admin/issues/234)) ([6d6a715](https://github.com/googleapis/java-appengine-admin/commit/6d6a715bfe8fc46ca63aacc6152597413b5e08cc))
+* Add build scripts for native image testing in Java 17 ([#1440](https://github.com/googleapis/java-appengine-admin/issues/1440)) ([#241](https://github.com/googleapis/java-appengine-admin/issues/241)) ([e5b6e84](https://github.com/googleapis/java-appengine-admin/commit/e5b6e84baa7de76436b7527a0b7a9dba1b8f56a3))
+* Promote to ga ([#72](https://github.com/googleapis/java-appengine-admin/issues/72)) ([534ba43](https://github.com/googleapis/java-appengine-admin/commit/534ba43f8e38944ee9ffae8cc91019df23f6737f))
+* Release gapic-generator-java v2.0.0 ([#91](https://github.com/googleapis/java-appengine-admin/issues/91)) ([0882fa3](https://github.com/googleapis/java-appengine-admin/commit/0882fa3bed0ef62a24535caa747ea556e0a6ad1f))
+* Remove use of deprecated gradle command in java README ([#1196](https://github.com/googleapis/java-appengine-admin/issues/1196)) ([#107](https://github.com/googleapis/java-appengine-admin/issues/107)) ([56d2811](https://github.com/googleapis/java-appengine-admin/commit/56d281182957d0cb28e780bba7125dcf2970d6c0))
+
+
+### Bug Fixes
+
+* Add `shopt -s nullglob` to dependencies script ([#1130](https://github.com/googleapis/java-appengine-admin/issues/1130)) ([#69](https://github.com/googleapis/java-appengine-admin/issues/69)) ([c3f6daa](https://github.com/googleapis/java-appengine-admin/commit/c3f6daac5b133d20aabc855d5512d41cda0d6ed3))
+* Enable longpaths support for windows test ([#1485](https://github.com/googleapis/java-appengine-admin/issues/1485)) ([#259](https://github.com/googleapis/java-appengine-admin/issues/259)) ([7f14f4a](https://github.com/googleapis/java-appengine-admin/commit/7f14f4a03907fa14ba741a768b9a8e0f1e78ba50))
+* **java:** Add -ntp flag to native image testing command ([#1299](https://github.com/googleapis/java-appengine-admin/issues/1299)) ([#156](https://github.com/googleapis/java-appengine-admin/issues/156)) ([5bd2a53](https://github.com/googleapis/java-appengine-admin/commit/5bd2a534305ce8de498c5515221b6a81fc1c6279))
+* **java:** Java 17 dependency arguments ([#1266](https://github.com/googleapis/java-appengine-admin/issues/1266)) ([#141](https://github.com/googleapis/java-appengine-admin/issues/141)) ([8822f34](https://github.com/googleapis/java-appengine-admin/commit/8822f3491aae2f683c4412c6061bcca2caeecebb))
+* **java:** Run Maven in plain console-friendly mode ([#1301](https://github.com/googleapis/java-appengine-admin/issues/1301)) ([#162](https://github.com/googleapis/java-appengine-admin/issues/162)) ([fe1b4d3](https://github.com/googleapis/java-appengine-admin/commit/fe1b4d36bd634b1f582d6822a95332737ee6d9a8))
+* Update gapic-generator-java with mock service generation fixes ([#243](https://github.com/googleapis/java-appengine-admin/issues/243)) ([965319d](https://github.com/googleapis/java-appengine-admin/commit/965319d280de7ddf072b2acbf5c233725f431653))
+
+
+### Dependencies
+
+* **java:** Update actions/github-script action to v5 ([#1339](https://github.com/googleapis/java-appengine-admin/issues/1339)) ([#182](https://github.com/googleapis/java-appengine-admin/issues/182)) ([c41ec5e](https://github.com/googleapis/java-appengine-admin/commit/c41ec5e832452a8510e5ff96c06e1f9839ad3da1))
+* Update actions/checkout action to v3 ([#206](https://github.com/googleapis/java-appengine-admin/issues/206)) ([1b95de8](https://github.com/googleapis/java-appengine-admin/commit/1b95de8ba6c821793ca063a62eddf8bb944de51b))
+* Update actions/github-script action to v5 ([#181](https://github.com/googleapis/java-appengine-admin/issues/181)) ([2aa3d62](https://github.com/googleapis/java-appengine-admin/commit/2aa3d6287c47691026107ccad0b0e459bd0303a3))
+* Update actions/github-script action to v6 ([#193](https://github.com/googleapis/java-appengine-admin/issues/193)) ([9a16037](https://github.com/googleapis/java-appengine-admin/commit/9a1603720634fb26d99fab0f74619eebdad3cbed))
+* Update actions/setup-java action to v3 ([#201](https://github.com/googleapis/java-appengine-admin/issues/201)) ([0a485ac](https://github.com/googleapis/java-appengine-admin/commit/0a485aca0e9b93159c7c6cbf064a4abb48078525))
+* Update dependency cachetools to v5 ([#304](https://github.com/googleapis/java-appengine-admin/issues/304)) ([9820f38](https://github.com/googleapis/java-appengine-admin/commit/9820f38331a870c198c443d2fd1fa1c3a991412d))
+* Update dependency certifi to v2022.9.24 ([#284](https://github.com/googleapis/java-appengine-admin/issues/284)) ([926c9e3](https://github.com/googleapis/java-appengine-admin/commit/926c9e3ca10d5ab4cc40ba0e921b416cad530214))
+* Update dependency charset-normalizer to v2.1.1 ([#288](https://github.com/googleapis/java-appengine-admin/issues/288)) ([94d690f](https://github.com/googleapis/java-appengine-admin/commit/94d690f49677f2c92f692d977843ebb02fb3fe61))
+* Update dependency click to v8.1.3 ([#289](https://github.com/googleapis/java-appengine-admin/issues/289)) ([fb210fb](https://github.com/googleapis/java-appengine-admin/commit/fb210fbb6c052770606676b45b08ade00983ebaf))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v0.21.1 ([#27](https://github.com/googleapis/java-appengine-admin/issues/27)) ([b198994](https://github.com/googleapis/java-appengine-admin/commit/b1989947e17e6580c5543396fe1962fb2e4d837b))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v1 ([#31](https://github.com/googleapis/java-appengine-admin/issues/31)) ([9a2bfa0](https://github.com/googleapis/java-appengine-admin/commit/9a2bfa075b44e32fec99b2fcc25424515ee1eb2a))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v1.1.0 ([#39](https://github.com/googleapis/java-appengine-admin/issues/39)) ([e58d04a](https://github.com/googleapis/java-appengine-admin/commit/e58d04a60a8547ccea0c829c62fbdb7e441d8a37))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v1.2.0 ([#47](https://github.com/googleapis/java-appengine-admin/issues/47)) ([b395030](https://github.com/googleapis/java-appengine-admin/commit/b395030405a17234ee0edaa67b7f52bb593f79a4))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v1.3.0 ([#58](https://github.com/googleapis/java-appengine-admin/issues/58)) ([354b3e1](https://github.com/googleapis/java-appengine-admin/commit/354b3e1149d4a86d600043a05c9255e291370c92))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v1.4.0 ([#71](https://github.com/googleapis/java-appengine-admin/issues/71)) ([18e40f2](https://github.com/googleapis/java-appengine-admin/commit/18e40f2298d05469dcbd4988a3ca54243881b245))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2 ([#90](https://github.com/googleapis/java-appengine-admin/issues/90)) ([f121ea4](https://github.com/googleapis/java-appengine-admin/commit/f121ea415e1f2106ef9ac9909ed33223a2f40d1a))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.0.1 ([#99](https://github.com/googleapis/java-appengine-admin/issues/99)) ([58e4679](https://github.com/googleapis/java-appengine-admin/commit/58e46796278c6836531497f46bf19dbef82ebc2a))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.1.0 ([#103](https://github.com/googleapis/java-appengine-admin/issues/103)) ([f83cedf](https://github.com/googleapis/java-appengine-admin/commit/f83cedf8b3c163ba585250a6597930b11ff3fce1))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.10.0 ([#226](https://github.com/googleapis/java-appengine-admin/issues/226)) ([e4a3982](https://github.com/googleapis/java-appengine-admin/commit/e4a3982f75fd198e1cbb70407aea9213d01b1c90))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.12.0 ([#240](https://github.com/googleapis/java-appengine-admin/issues/240)) ([d25ecb6](https://github.com/googleapis/java-appengine-admin/commit/d25ecb6669e68bb29d45eb1039f688a902b8b21d))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.13.0 ([#247](https://github.com/googleapis/java-appengine-admin/issues/247)) ([10d3f9c](https://github.com/googleapis/java-appengine-admin/commit/10d3f9c3d1ed3ca626bf312b7b29bd8e9367f77d))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.2.0 ([#109](https://github.com/googleapis/java-appengine-admin/issues/109)) ([33dbbd8](https://github.com/googleapis/java-appengine-admin/commit/33dbbd89d3410d37176bb4625bd833514090e493))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.2.1 ([#117](https://github.com/googleapis/java-appengine-admin/issues/117)) ([e45e18f](https://github.com/googleapis/java-appengine-admin/commit/e45e18f126c7f58b621fb3cbd8c4d2d077acc59e))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.3.0 ([#124](https://github.com/googleapis/java-appengine-admin/issues/124)) ([d2a4dd2](https://github.com/googleapis/java-appengine-admin/commit/d2a4dd22ee7da08e1b9239c32afe46b7968a831d))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.4.0 ([#136](https://github.com/googleapis/java-appengine-admin/issues/136)) ([1365489](https://github.com/googleapis/java-appengine-admin/commit/136548935042ac67a2f7df1b3fa2fe6e9c82ef6c))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.5.0 ([#150](https://github.com/googleapis/java-appengine-admin/issues/150)) ([aaa08cc](https://github.com/googleapis/java-appengine-admin/commit/aaa08cc81fa440a6efd5ff1b6ed0b9b3cc517c2d))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.5.1 ([#155](https://github.com/googleapis/java-appengine-admin/issues/155)) ([5ce2d0d](https://github.com/googleapis/java-appengine-admin/commit/5ce2d0de6b612b47e16371d1f4d36fded798c0d6))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.6.0 ([#166](https://github.com/googleapis/java-appengine-admin/issues/166)) ([e10cfba](https://github.com/googleapis/java-appengine-admin/commit/e10cfbaa64cfa3dda8e78fc50a2d1f1648dd77f1))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.7.0 ([#184](https://github.com/googleapis/java-appengine-admin/issues/184)) ([5d37148](https://github.com/googleapis/java-appengine-admin/commit/5d3714877b10fcc8f77f6a8170283d399d1154d1))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.8.0 ([#208](https://github.com/googleapis/java-appengine-admin/issues/208)) ([ef607a8](https://github.com/googleapis/java-appengine-admin/commit/ef607a89218bcff9e864ce752c06a217d77acc5f))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v2.9.0 ([#221](https://github.com/googleapis/java-appengine-admin/issues/221)) ([c130f2f](https://github.com/googleapis/java-appengine-admin/commit/c130f2ff572163f943f25ffa573f0acb4cc2f49f))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v3 ([#267](https://github.com/googleapis/java-appengine-admin/issues/267)) ([cdecfee](https://github.com/googleapis/java-appengine-admin/commit/cdecfee471099ad295dbad400f5fb598953d7779))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v3.0.2 ([#279](https://github.com/googleapis/java-appengine-admin/issues/279)) ([fc113a3](https://github.com/googleapis/java-appengine-admin/commit/fc113a3a9f97a03178622470e30e2816811d2013))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v3.0.3 ([#281](https://github.com/googleapis/java-appengine-admin/issues/281)) ([4d74127](https://github.com/googleapis/java-appengine-admin/commit/4d741274613825586c5da4e036d21fe00d7f9f61))
+* Update dependency com.google.cloud:google-cloud-shared-dependencies to v3.0.4 ([#308](https://github.com/googleapis/java-appengine-admin/issues/308)) ([350048a](https://github.com/googleapis/java-appengine-admin/commit/350048a5d897f173fa01c7fa23bb678c421a2ccf))
+* Update dependency gcp-releasetool to v1.8.8 ([#285](https://github.com/googleapis/java-appengine-admin/issues/285)) ([5411320](https://github.com/googleapis/java-appengine-admin/commit/54113204d78629a876327eae811eb814c5e60b5c))
+* Update dependency google-api-core to v2.10.1 ([#290](https://github.com/googleapis/java-appengine-admin/issues/290)) ([1d24319](https://github.com/googleapis/java-appengine-admin/commit/1d243195952d005f22f013e303ece6052bd4653d))
+* Update dependency google-auth to v2.12.0 ([#291](https://github.com/googleapis/java-appengine-admin/issues/291)) ([77b86bb](https://github.com/googleapis/java-appengine-admin/commit/77b86bb79022b9fa5867c67125e8adda21445fc3))
+* Update dependency google-cloud-core to v2.3.2 ([#286](https://github.com/googleapis/java-appengine-admin/issues/286)) ([879be76](https://github.com/googleapis/java-appengine-admin/commit/879be7678f7943dbbc0c768ba8d2ab72cd7d3eba))
+* Update dependency google-cloud-storage to v2.5.0 ([#292](https://github.com/googleapis/java-appengine-admin/issues/292)) ([1d57fcb](https://github.com/googleapis/java-appengine-admin/commit/1d57fcb7062934071f27df7b05840a0e3be485e1))
+* Update dependency googleapis-common-protos to v1.56.4 ([#287](https://github.com/googleapis/java-appengine-admin/issues/287)) ([0530794](https://github.com/googleapis/java-appengine-admin/commit/0530794dac2db9241820c7bf6d45337097d6a382))
+* Update dependency importlib-metadata to v4.12.0 ([#294](https://github.com/googleapis/java-appengine-admin/issues/294)) ([1da2e3f](https://github.com/googleapis/java-appengine-admin/commit/1da2e3f6747ec1b9c9173d2186d05c8bd59dd7f3))
+* Update dependency jeepney to v0.8.0 ([#295](https://github.com/googleapis/java-appengine-admin/issues/295)) ([ce54337](https://github.com/googleapis/java-appengine-admin/commit/ce543372b74776fb00d9a686a49a64a7c0b83220))
+* Update dependency jinja2 to v3.1.2 ([#296](https://github.com/googleapis/java-appengine-admin/issues/296)) ([e84efb5](https://github.com/googleapis/java-appengine-admin/commit/e84efb52765fd77c2979bb9701e6dbfb253f6cd4))
+* Update dependency keyring to v23.9.3 ([#297](https://github.com/googleapis/java-appengine-admin/issues/297)) ([34aea75](https://github.com/googleapis/java-appengine-admin/commit/34aea75e8325eda0e0a712d4719607016dfe305f))
+* Update dependency protobuf to v4 ([#305](https://github.com/googleapis/java-appengine-admin/issues/305)) ([1396e55](https://github.com/googleapis/java-appengine-admin/commit/1396e5577a696400c24badf362c7c1c0ec7e3190))
+* Update dependency requests to v2.28.1 ([#301](https://github.com/googleapis/java-appengine-admin/issues/301)) ([197885b](https://github.com/googleapis/java-appengine-admin/commit/197885be06ac3eac0f92becac7074fe933338fce))
+* Update dependency typing-extensions to v4.3.0 ([#302](https://github.com/googleapis/java-appengine-admin/issues/302)) ([0c62045](https://github.com/googleapis/java-appengine-admin/commit/0c6204548eea81832c578e48a2c6284902a44950))
+* Update dependency zipp to v3.8.1 ([#303](https://github.com/googleapis/java-appengine-admin/issues/303)) ([54867e0](https://github.com/googleapis/java-appengine-admin/commit/54867e0966cb18a988d690d0ef87afb45e49687c))
+
 ## [2.3.4](https://github.com/googleapis/java-appengine-admin/compare/v2.3.3...v2.3.4) (2022-08-02)
 
 
